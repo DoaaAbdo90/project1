@@ -1,0 +1,1523 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    background-color: rgb(183, 64, 238,.4);
+    position: fixed;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 1000;
+}
+.di{
+    background-image: url(../photo/fki3UFlwk7QRBLz3s4qa4ZIFkLq4NKdN7Gd2ALtT.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+.di::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(0, 0,0,0.5);
+}
+.pag1{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+.search_icon{
+    position: absolute;
+    z-index: 2;
+    padding-left: 38px;
+    padding-top: 9px;
+    font-size: 13px;
+}
+.home_icon{
+    margin-left: 10px;
+    color: wheat;
+    margin-top: 3px;
+    font-size: 24px;
+}
+input{
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+    border-radius: 14px;
+    margin-left: 30px;
+    border: 1px solid black;
+    height: 20px;
+    width: 130px;
+}
+.p1{
+    margin-top: 12px;
+}
+ul{
+    list-style-type: none;
+    position: fixed;
+    top: 2;
+    left: 58%;
+    float: left;
+}
+li{
+    display: inline-block;
+}
+.drop_down{
+    position: absolute;
+    top: 100%;
+    left: auto;
+    right: 75px;
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px 0;
+    list-style-type: none;
+    display: none;
+}
+ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+    position: relative;
+}
+.drop_down li{
+    padding: 10px;
+}
+.drop_down li a{
+    color: rgb(155, 25, 155);
+    padding: 10px;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+}
+.drop_down li a:hover{
+    background-color: rgba(99, 91, 175, 0.1);
+}
+.drop_down1:hover .drop_down{
+    display: block;
+} 
+.list li a:hover{
+    cursor: pointer;
+}
+ul li a::before{
+    content: "";
+    position: absolute;
+    left: 10;
+    height: 3px;
+    width: 0;
+    background-color: purple;
+    bottom: -7px;
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: white;
+}
+ul li a:hover::before{
+    width: 90%;
+}
+.btn1,.btn2{
+    width:90px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    background-color: white;
+    margin-top: 20px;
+   
+}
+.btn1{
+    margin-left: 580px;
+}
+.btn2{
+    margin-left: 8px;
+}
+.btn1:hover,.btn2:hover{
+    background-color:rgb(183, 64, 238,.4) ;
+    color: rosybrown;
+}
+.p2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+}
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: rgb(155, 25, 155);
+    margin-left: 48%
+}
+.div2{
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    margin-left:15%;
+    margin-top: 50px;
+    border-radius: 10px;
+    float: left;
+}
+.div2 i{
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+.div2 p,a{
+    display: block;
+    text-align: center;
+}
+.div2 a{
+    text-decoration: none;
+    padding-top: 20px;
+    color: blueviolet;
+    font-weight: 600;
+}
+.div2 .p3{
+        font-size: 20px;
+    font-weight: 600;
+}
+.div2 .p4{
+    font-size: 10px;
+    font-weight: 600;
+}
+.div3{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    margin-left:15%;
+    margin-top: 50px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+}
+.div3 i{
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+.div3 p,a{
+    display: block;
+    text-align: center;
+}
+.div3 a{
+    text-decoration: none;
+    padding-top: 20px;
+    color: blueviolet;
+    font-weight: 600;
+}
+.div3 .p3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.div3 .p4{
+    font-size: 10px;
+    font-weight: 600;
+}
+.div4{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    margin-left:15%;
+    margin-top: 50px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+}
+.div4 i{
+    text-align: center;
+    display: block;    padding-top: 10px;
+}
+.div4 p,a{
+    display: block;
+    text-align: center;
+}
+.div4 a{
+    text-decoration: none;
+    padding-top: 20px;
+    color: blueviolet;
+    font-weight: 600;
+}
+.div4 .p3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.div4 .p4{
+    font-size: 10px;
+    font-weight: 600;
+}
+.pag2{
+    background-color: white;
+    width: 100%;
+    height:100vh;
+}
+.pag2 a{
+    cursor: pointer;
+}
+.div2::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet; 
+}
+.pag2 p{
+    margin-top: 10px;
+}
+.pag2 i{
+    margin-top: 8px;
+}
+.div2:hover .pargragh{
+    position: relative;
+    z-index: 2;
+    color: white;
+    transition: 2s;
+}
+.div2:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div3::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+}
+.div3:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div3:hover .pargragh{
+    position: relative;
+    z-index: 2;
+    color: white;
+    transition: 2s;
+}
+.div4::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+}
+.div4:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div4:hover .pargragh{
+    position: relative;
+    z-index: 2;
+    color: white;
+    transition: 2s;
+}
+.pag2 i{
+    color: purple;
+}
+.pag3{
+width: 100%;
+height: 100vh;
+}
+.p5{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+}
+.div5{
+    position: relative;
+    background-image: url(../photo/perfumes-amaderados-hombre-2-250x167.jpg);
+    width: 280px;
+    height: 120px;
+    background-size: cover;
+    float: left;
+    border-radius: 10px;
+    color: white;
+margin-left: 15%;
+margin-top: 10px;
+overflow: hidden;
+}
+.div5::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: 0.5s;
+}
+.text_hedden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+.div5:hover::after{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div5:hover .text_hedden{
+    opacity: 1;
+}
+.div6{
+    position: relative;
+    background-image: url(../photo/176757.jpeg.webp);
+    background-size: cover;
+    float: left;
+    width: 280px;
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+margin-left: 4%;
+margin-top: 10px;
+}
+.div6::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: 0.5s;
+}
+.text_hedden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+.div6:hover::after{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div6:hover .text_hedden{
+    opacity: 1;
+}
+.div_7{
+    position: relative;
+    background-image: url(../photo/parfum-arome-floral-eclate-generative-ai_74760-7230.jpg);
+    width: 280px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+margin-left: 4%;
+float: left;
+margin-top: 10px;
+}
+.div_7::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: 0.5s;
+}
+.text_hedden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+.div_7:hover::after{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div_7:hover .text_hedden{
+    opacity: 1;
+}
+.div8{
+    position: relative;
+    background-image: url(../photo/mengetahui-minyak-kasturi-wewangian-yang-disenangi-rasulullah-Vcg5mnOmo5\ \(1\).jpg);
+    width: 280px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+margin-left: 15%;
+float: left;
+margin-top: 10px;
+
+}
+.div8::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: 0.5s;
+}
+.text_hedden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+.div8:hover::after{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div8:hover .text_hedden{
+    opacity: 1;
+}
+.div9{
+    position: relative;
+    background-image: url(../photo/mockup-tube-bottle-skin-care-cosmetic-perfume-fragrance-product-branding-cream-lotion_42100-2904.jpg);
+    width: 280px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+margin-left: 4%;
+float: left;
+margin-top: 10px;
+
+}
+.div9::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: 0.5s;
+}
+.text_hedden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+.div9:hover::after{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div9:hover .text_hedden{
+    opacity: 1;
+}
+.div10{
+    position: relative;
+    background-image: url(../photo/021837aebd75b2c7183353fd67f3ff8e-390x220.jpg);
+    width: 280px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+margin-left: 4%;
+float: left;
+margin-top: 10px;
+}
+.div10::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: 0.5s;
+}
+.text_hedden{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 3;
+}
+.div10:hover::after{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div10:hover .text_hedden{
+    opacity: 1;
+}
+.p6{
+    font-weight: 600px;
+    font-size: 19;
+}
+.p7{
+    padding-top: 10px;
+    font-weight: 300px;
+    font-size: 12;
+}
+.pag3 i{
+    padding-top: 5px;
+    margin-top: 5px;
+    color: #000;
+    background-color: white;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;  
+}
+.pag4{
+    width: 100%;
+    height: 100vh;
+}
+ .p8{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+ }
+ .div11{
+    width: 320px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    position: relative;
+ }
+ .div11::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+
+}
+.div_paragraph1{
+    position: absolute;
+    color: rgba(0, 0, 0,0.4);
+    font-size: 18;
+    font-weight: bold;
+    transition: 2s;
+    z-index: 3;
+}
+.div11:hover .div_paragraph1{
+    color: rgba(0, 0, 0,1);
+}
+.div11:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div12::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet; 
+}
+.div_paragraph1{
+    position: absolute;
+    color: rgba(0, 0, 0,0.4);
+    font-size: 18;
+    font-weight: bold;
+    transition: 2s;
+    z-index: 3;
+}
+.div12:hover .div_paragraph1{
+    color: rgba(0, 0, 0,1);
+}
+.div12:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div13::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet; 
+}
+.div_paragraph1{
+    position: absolute;
+    color: rgba(0, 0, 0,0.4);
+    font-size: 18;
+    font-weight: bold;
+    transition: 2s;
+    z-index: 3;
+}
+.div13:hover .div_paragraph1{
+    color: rgba(0, 0, 0,1);
+}
+.div13:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div14::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet; 
+}
+.div_paragraph1{
+    position: absolute;
+    color: rgba(0, 0, 0,0.4);
+    font-size: 18;
+    font-weight: bold;
+    transition: 2s;
+    z-index: 3;
+}
+.div14:hover .div_paragraph1{
+    color: rgba(0, 0, 0,1);
+}
+.div14:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div15::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;  
+}
+.div_paragraph1{
+    position: absolute;
+    color: rgba(0, 0, 0,0.4);
+    font-size: 18;
+    font-weight: bold;
+    transition: 2s;
+    z-index: 3;
+}
+.div15:hover .div_paragraph1{
+    color: rgba(0, 0, 0,1);
+}
+.div15:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+.div16::after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+  
+}
+.div_paragraph1{
+    position: absolute;
+    color: rgba(0, 0, 0,0.4);
+    font-size: 18;
+    font-weight: bold;
+    transition: 2s;
+    z-index: 3;
+}
+.div16:hover .div_paragraph1{
+    color: rgba(0, 0, 0,1);
+}
+.div16:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+}
+ .crown{
+    color: purple;
+    float: left;
+    padding-left: 2px;
+ }
+ .div_paragraph p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 17;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 2px;
+ }
+ .div_paragraph1 p{
+    padding-left: 20px;   
+ }
+ .div12{
+    position: relative;
+    width: 320px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%;
+ }
+ .div12 i{
+    color: purple;
+    float: left;
+    padding-left: 2px;
+ }
+ .div12 .div_paragraph p{
+    text-align: justify;
+ } 
+ .div13{
+    position: relative;
+    width: 320px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%;
+ }
+ .div13 i{
+    color: purple;
+    float: left;
+    padding-left: 2px;
+ }
+ .div13 .div_paragraph p{
+    text-align: justify;
+ } 
+ .div14{
+    position: relative;
+    width: 320px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+ }
+ .div14 i{
+    color: purple;
+    float: left;
+    padding-left: 2px;
+ }
+ .div14 .div_paragraph p{
+    text-align: justify;
+ } 
+ .div15{
+    position: relative;
+    width: 320px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%;
+ }
+ .div15 i{
+    color: purple;
+    float: left;
+    padding-left: 2px;
+ }
+ .div15 .div_paragraph p{
+    text-align: justify;
+ } 
+  .div16{
+    position: relative;
+    width: 320px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%;
+ }
+ .div16 i{
+    color: purple;
+    float: left;
+    padding-left: 2px;
+ }
+ .div16 .div_paragraph p{
+    text-align: justify;
+ } 
+ .pag5{
+    width: 100%;
+    height: 100vh;
+ }
+ .line1{
+    width: 40px;
+    height: 2px;
+    background-color: rgb(155, 25, 155);
+    margin-left: 10%;
+}
+.p9{
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 8%;
+}
+.p10{
+margin-left: 10%;
+font-weight: 600;
+font-size: 12;
+color: gray;
+margin-top: 30px;
+ margin-bottom: 30px; 
+}
+.div17 p{
+    color: rgb(87, 86, 86);
+display: inline;
+line-height: 26px;
+}
+.div17 i{
+    color: purple;
+    font-size: 15;
+    font-weight: 600;
+    margin-left: 22%;
+    line-height: 26px;
+
+}
+.div17{
+    float: left;
+    width: 600px;
+
+}
+.pag5 img{
+    height: 400px;
+    display: block;
+    margin-top: -90%;
+}
+.div18{
+    float: left;
+    margin-left: 46%;
+}
+.icons{
+    margin-left: 50%;
+    color: gray;
+    font-size: 12;
+}
+.i:hover{
+    color: blueviolet;
+}
+.i1:hover{
+    color: blueviolet;
+}
+.i2:hover{
+    color: blueviolet;
+}
+.pag6{
+    width: 100%;
+    height: 100vh;
+}
+.s{
+background-image: url(../photo/fki3UFlwk7QRBLz3s4qa4ZIFkLq4NKdN7Gd2ALtT.jpg);
+background-repeat: no-repeat;
+margin-top: 20%;
+width: 100%;
+height: 50%;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+.s div{
+    margin-top: 10%;
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+    z-index: 10;
+}
+.s div i{
+    color: blueviolet;
+}
+.s::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0,0,0.4);
+}
+.pag7{
+    height: 100vh;
+    width: 100%;
+}
+.p11{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+}
+.pag7 div{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 230px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.p12{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 1px solid black;
+    text-align: center;
+   padding-top: 18px;
+   margin: auto;
+   margin-top: 10%;
+
+}
+.pag7 .p13{
+    margin-top: 10%;
+}
+.p14{
+    margin-top: 10%; 
+
+}
+.pag7 p{
+    text-align: center;
+}
+.pag7 button{
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    margin-top: 12px;
+}
+.div23{
+    position: relative;
+    z-index: 12;
+
+}
+.div23::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 0;
+background-color: blueviolet;    transition: 0.5s;
+    border-radius: 10px;
+}
+.div23:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 2s;
+
+}
+.div23:hover .p12{
+border: 1px solid purple;
+}
+.div23:hover .p13{
+    color: purple;}
+.div24{
+        position: relative;
+        z-index: 13;
+}
+.div24::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+       
+        width: 100%;
+        height: 0;
+    background-color: blueviolet;   
+     transition: 0.3s;
+        border-radius: 10px;
+}
+.div24:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition: 2s;
+    
+}
+.div24:hover .p12{
+    border: 1px solid purple;
+}
+.div24:hover .p13{
+        color: purple;}
+.div25{
+            position: relative;
+
+}
+.div25::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+           
+            width: 100%;
+            height: 0;
+        background-color: blueviolet;    transition: 0.3s;
+            border-radius: 10px;
+}
+.div25:hover::after{
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            transition: 2s;
+        
+}
+.div25:hover .p12{
+        border: 1px solid purple;
+}
+.div25:hover .p13{
+            color: purple;
+}
+.div25:hover p,button{
+    position: relative;
+    z-index: 2;
+   
+}
+.div24:hover p,button{
+    position: relative;
+    z-index: 2;
+   
+}
+.div23:hover p,button{
+    position: relative;
+    z-index: 2;
+   
+}
+.pag8{
+        height: 100vh;
+        width: 100%;
+}
+.contaner{
+        position: relative;
+        background-image: url(../photo/fki3UFlwk7QRBLz3s4qa4ZIFkLq4NKdN7Gd2ALtT.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 250px;
+
+}
+.bold{
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        float: left;
+        margin-top: 18px;
+        margin-left: 1%;
+}
+.middel{
+        font-size: 15px;
+        font-weight: 600;
+        color: blue;
+        margin-top: 40px;
+        margin-left: 85px;
+}
+.small{
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 80px;
+        margin-top: 30px;
+}
+.img1{
+        margin-top: 1%;
+        margin-left: 20%;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        float:left;
+
+}
+.divo{
+        position: relative;
+        margin-top: 65px;
+        margin-left: 17%;
+float: left;
+}
+.divo1{
+        position: relative;
+        margin-left: 230px;
+        margin-top: 65px;
+float: left;
+}
+.contaner::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0,0,0.3);
+ }
+.title_div{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+}
+.pag9{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.team_works{
+    float: left;
+    width: 26%;
+    background-color: rgb(209, 209, 209);
+    padding: 16px 14px;
+    text-align: center;
+    position: relative;
+}
+.team_works1{
+    margin: 50px 4%;
+}
+.team_works2{
+    margin: 50px 3%;
+
+}
+.team_works3{
+    margin: 50px 3%;
+
+}
+.image_div{
+    background-color: brown;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.image_div img{
+    width: 100%;
+    
+}
+.icons_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+opacity: 0.5;
+visibility: hidden;
+
+}
+.team_works:hover .icons_div{
+    visibility: visible;
+    
+}
+.team_works:hover h2{
+color: white;
+z-index: 100;
+position: relative;
+transition: 2s;
+}
+.team_works:hover p{
+    color: rgb(166, 81, 245);
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.icons_div i{
+    color: white;
+    background-color: rgb(166, 81, 245);
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    line-height: 45px;
+}
+.team_works::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: blueviolet;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+.team_works:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 2s;
+}
+.pag10{
+    height: 100vh;
+    width: 100%;
+}
+.div_p{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+}
+.pag10 .div33,.div34,.div35{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 450px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+    text-align: center;
+}
+.spans i{
+color: blueviolet;
+}
+.spans{
+    margin-top: 20px;
+}
+.pag10 img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.discript{
+    margin-top: 20px;
+}
+.pag10 a{
+    text-decoration: none;
+    padding-top: 20px;
+}
+.pag10 h2{
+    margin-top: 20px;
+}
+.div33{
+    position: relative;
+    z-index: 12;
+
+}
+.div33::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 0;
+background-color: blueviolet;    transition: 0.5s;
+    border-radius: 10px;
+}
+.div33:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 2s;
+
+}
+.div34{
+    position: relative;
+    z-index: 12;
+}
+.div34::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+background-color: blueviolet;    transition: 0.5s;
+    border-radius: 10px;
+}
+.div34:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 2s;
+}
+.div35{
+    position: relative;
+    z-index: 12;
+}
+.div35::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 0;
+background-color: blueviolet;    transition: 0.5s;
+    border-radius: 10px;
+}
+.div35:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 2s;
+
+}
+.div35:hover p{
+    color: purple;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div35:hover .spans{
+    color: purple;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div35:hover h2{
+    color: white;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div35:hover img{
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div33:hover p{
+    color: purple;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div33:hover .spans{
+    color: purple;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div33:hover h2{
+    color: white;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div33:hover img{
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div34:hover p{
+    color: purple;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div34:hover .spans{
+    color: purple;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div34:hover h2{
+    color: white;
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.div34:hover img{
+    z-index: 100;
+    position: relative;
+    transition: 2s;
+}
+.pag11{
+    width: 100%;
+    margin-top: 200px;
+    background-color: rgba(138, 43, 226,0.3);
+
+}
+.pag11 img{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+.pag11 i{
+    font-size: 18px;
+    border-radius: 60px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+background-color: blueviolet;
+}
+.pag11 i:hover{
+    background-color: purple;
+}
+.face_icon{
+    margin-left: 580px;
+    margin-top: 20px;
+}
+.pag11 p{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
